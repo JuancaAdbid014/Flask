@@ -1,5 +1,6 @@
 # Flask
 Curso de Flask
+![image](https://user-images.githubusercontent.com/94714288/143951000-ca094aff-3c24-4374-b0ee-c7f06098df25.png)
 Mis notas hasta el momento:
 Uso de condicionales
 Ejemplo de estructura:
