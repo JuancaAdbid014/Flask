@@ -149,3 +149,7 @@ SOCKETS - Intercambio de información en tiempo real. Ej: Un juego online o un c
 La etapa de pruebas se denomina testing y se trata de una investigación exhaustiva, no solo técnica sino también empírica, que busca reunir información objetiva sobre la calidad de un proyecto de software, por ejemplo, una aplicación móvil o un sitio web.
 
 El objetivo del testing no solo es encontrar fallas sino también aumentar la confianza en la calidad del producto, facilitar información para la toma de decisiones y detectar oportunidades de mejora.
+
+https://flask.palletsprojects.com/en/1.1.x/
+https://flask.palletsprojects.com/en/1.1.x/tutorial/views/
+https://flask-login.readthedocs.io/en/latest/
