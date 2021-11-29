@@ -101,3 +101,45 @@ export FLASK_ENV=development
 echo $FLASK_ENV
 SESSION: es un intercambio de información interactiva semipermanente, también conocido como diálogo, una conversación o un encuentro, entre dos o más dispositivos de comunicación, o entre un ordenador y usuario.
 
+Automatiza el levantar tu entorno virtual de desarrollo (venv) con un script.
+
+#!/bin/bash
+
+pip install -r requierements.txt
+source venv/bin/activate
+
+export FLASK_APP=main.py
+export FLASK_DEBUG=1
+export FLASK_ENV=development
+
+flask run
+
+Crea un archivo nuevo en la raíz del proyecto y copia el script de arriba.
+Guárdalo con extension .sh
+Ejecútalo en consola: $ source file_name.sh
+You welcome!
+
+![image](https://user-images.githubusercontent.com/94714288/143856916-46e25265-8f83-44cf-a73a-a9e34247317a.png)
+
+SESSION: es un intercambio de información interactiva semipermanente, también conocido como diálogo, una conversación o un encuentro, entre dos o más dispositivos de comunicación, o entre un ordenador y usuario.
+
+<h1>Uso de método POST en Flask-WTF</h1>
+
+Flask acepta peticiones GET por defecto y por ende no debemos declararla en nuestras rutas.
+
+Pero cuando necesitamos hacer una petición POST al enviar un formulario debemos declararla de la siguiente manera, como en este ejemplo:
+
+@app.route('/platzi-post', methods=['GET', 'POST'])
+Debemos declararle además de la petición que queremos, GET, ya que le estamos pasando el parámetro methods para que acepte solo y únicamente las peticiones que estamos declarando.
+
+De esta forma, al actualizar el navegador ya podremos hacer la petición POST a nuestra ruta deseada y obtener la respuesta requerida.
+
+Nta:
+
+GET - Es mandar la información al servidor en forma de variables a través de la url.
+
+POST - Cuando son datos especiales que no quieres que se vean en la url, se envian a través de post, que un buen número de veces se da por medio de un formulario. Tecnicámente los datos viajan a través de los headers del protocolo http.
+
+AJAX - Asyncronus javascript and XML. Permite actualizar el body de la página sin necesidad de redirigirme a otra url. EJ: cómo cuando agrego un comentario en facebook.
+
+SOCKETS - Intercambio de información en tiempo real. Ej: Un juego online o un chat.
