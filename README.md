@@ -93,3 +93,5 @@ Ejemplo de archivo hijo(file.html)
     {% block content %}
         <p>Bloque de contenido del archivo hijo </p>
     {% endblock %}
+ ![image](https://user-images.githubusercontent.com/94714288/143855747-bb847ab7-3ba1-43bf-8470-106949934a3c.png)
+
